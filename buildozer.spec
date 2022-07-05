@@ -32,7 +32,7 @@ version.filename = %(source.dir)s/main.py
 # version = 1.2.0
 
 # (list) Application requirements
-requirements = kivy
+requirements = kivy , SpeechRecognition , pyttsx3 
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
@@ -58,10 +58,10 @@ android.permissions = INTERNET
 #android.api = 14
 
 # (int) Minimum API required (8 = Android 2.2 devices)
-#android.minapi = 8
+android.minapi = 22
 
 # (int) Android SDK version to use
-#android.sdk = 21
+android.sdk = 29
 
 # (str) Android NDK version to use
 #android.ndk = 9

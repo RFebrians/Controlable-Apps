@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+__version__ = '1.0'
+
 # Kivy
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout

@@ -247,6 +247,7 @@ def run_neptune():
     else:
         talk('I did not catch that')
 
+''' NOTE: THIS CODE HAS A BUG
 def send_to_server(command):
     print("SENDING TO SERVER")
     if command == "KILL":
@@ -263,6 +264,8 @@ def send_to_server(command):
     command.update({'DISPLAY':'', 'BUZZER_1':0, 'BUZZER_5':0})
     reply = s.recv(1024)
     print(reply.decode('utf-8'))
+ '''
+
 
 if __name__ == "__main__":
     connect_to_server()
